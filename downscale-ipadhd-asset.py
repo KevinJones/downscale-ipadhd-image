@@ -33,5 +33,5 @@ def makeScaledImages(filename):
 for arg in sys.argv:
     if arg == sys.argv[0]:
         pass
-
-    makeScaledImages(arg)
+    else:
+        makeScaledImages(arg)
